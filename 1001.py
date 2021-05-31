@@ -1,4 +1,4 @@
-'''
+"""
 URI Online Judge | 1001
 Extremamente Básico
 
@@ -9,10 +9,10 @@ A entrada contém 2 valores inteiros.
 
 Saída
 Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.
-'''
-s1 = int(input(''))
-s2 = int(input(''))
+"""
+s1 = int(input(""))
+s2 = int(input(""))
 
 x = s1 + s2
 
-print(f'X = {x}')
+print(f"X = {x}")
